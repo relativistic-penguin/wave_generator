@@ -46,3 +46,6 @@ Once this sketch file is loaded onto the board **via the native port**, you can 
 The notebook automatically determines which port the board is connected to, read serial data from it, save it to the `data/` directory, plot these analogue voltage data into a time series, and perform Fourier transform on it to produce a Fourier domain plot.
 **IMPORTANT NOTE**: You must ensure the `report_period_us` variable is set in the same way as in the Arduino sketch, otherwise the frequency calculation will be wrong. 
 This notebook is meant as a guide for the couple of useful functions defined in `scripts/data_processing.py`. Feel free to use it as a template for further development.
+
+## Citation
+If you use this work, please cite using the `CITATION.cff` file contained at repository root.
